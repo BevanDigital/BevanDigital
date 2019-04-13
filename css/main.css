@@ -2552,7 +2552,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
-  color: #555555;
+  color: black;
   font-size: 1.4rem;
 }
 
@@ -3781,7 +3781,6 @@ color: white;
 
 .lead .mainLine-E {
 
-font-style: italic;
 font-size: 16px;
 color: firebrick;
 }
@@ -3810,7 +3809,7 @@ text-align: center;
 
 
 .sectionNumbers-E {
-  margin-top: -180px;
+  margin-top: 130px;
 }
 
 #contact button.submitform:hover {
