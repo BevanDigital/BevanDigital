@@ -1525,7 +1525,7 @@ header .header-logo a {
 @media only screen and (max-width: 500px) {
 
   #home {
-  background-image: url(../images/patrick-tomasso-301239-unsplash12mobile.jpg)  
+  background-image: url(../images/patrick-tomasso-301239-unsplash12mobile.jpg);
   }
 
 }
