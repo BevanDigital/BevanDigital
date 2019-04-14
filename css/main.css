@@ -1514,12 +1514,9 @@ header .header-logo a {
   /*background-color: #151515;*/
   background-image: url(../images/patrick-tomasso-301239-unsplash12.jpg);
   background-repeat: no-repeat;
-  background-position: center 30%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-
-  min-height: 804px;
   position: relative;
 }
 
