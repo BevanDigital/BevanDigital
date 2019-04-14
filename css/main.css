@@ -1528,7 +1528,7 @@ header .header-logo a {
   background-image: url(../images/patrick-tomasso-301239-unsplash12mobile.jpg);
   background-size: cover;
   height: 100%;
-  width:100%;
+  width: 375px;
   }
 
 }
