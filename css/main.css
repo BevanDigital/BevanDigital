@@ -1516,8 +1516,12 @@ header .header-logo a {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: auto 100%;
   position: relative;
+  left: 0px;
+  top: 0px;
+  background-position: 50% 50%;
+  
 }
 
 #home .overlay {
