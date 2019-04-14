@@ -1403,12 +1403,12 @@ header .header-logo a {
   border-top: 1px dotted rgba(255, 255, 255, 0.03);
 }
 #menu-nav-wrap .nav-list li a {
-  color: rgba(255, 255, 255, 0.25);
+  color: white;
   display: block;
 }
 #menu-nav-wrap .nav-list li a:hover, 
 #menu-nav-wrap .nav-list li a:focus {
-  color: white;
+  color: firebrick;
 }
 #menu-nav-wrap .header-social-list {
   list-style: none;
@@ -1422,11 +1422,12 @@ header .header-logo a {
   display: inline-block;
 }
 #menu-nav-wrap .header-social-list li a {
-  color: rgba(255, 255, 255, 0.15);
+  color: white;
 }
 #menu-nav-wrap .header-social-list li a:hover, 
 #menu-nav-wrap .header-social-list li a:focus {
-  color: white;
+  
+  color: firebrick;
 }
 #menu-nav-wrap .header-social-list li:last-child {
   margin: 0;
@@ -3008,6 +3009,9 @@ footer h4.h05::after {
   .footer-bottom .copyright span::after {
     display: none;
   }
+  .ZappedLogoImage {
+margin-left: -15px;
+}
 }
 
 
@@ -3975,5 +3979,16 @@ button.stroke, .button.stroke:hover {
 
   display: none;
 }
+
+.list-links i:hover {
+  color: firebrick;
+      transition: all 0.3s ease-in-out;
+}
+
+.list-links i {
+  font-size: 25px; 
+  color: white;
+}
+
 
 
