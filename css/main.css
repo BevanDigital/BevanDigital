@@ -1516,11 +1516,10 @@ header .header-logo a {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: auto 100%;
+  background-size: cover 100%;
   position: relative;
   left: 0px;
   top: 0px;
-  background-position: 50% 50%;
   
 }
 
@@ -2999,11 +2998,38 @@ footer h4.h05::after {
   .footer-bottom .copyright span::after {
     display: none;
   }
-  .ZappedLogoImage {
-margin-left: -15px;
+ .ZappedLogoImage {
+margin-left: 0px;
 }
 }
 
+@media only screen and (max-width: 375px) {
+
+.ZappedLogoImage {
+margin-left: -15px;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.ZappedLogoImage {
+margin-left: -25px;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+ .ZappedLogoImage {
+margin-left: 0px;
+}
+
+header .header-logo {
+  left: -10px;
+}
+
+}
 
 
 .ZappedLogoImage a {
