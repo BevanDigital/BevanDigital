@@ -1522,6 +1522,14 @@ header .header-logo a {
   position: relative;
 }
 
+@media only screen and (max-width: 500px) {
+
+  #home {
+  background-image: url(../images/patrick-tomasso-301239-unsplash12mobile.jpg)  
+  }
+
+}
+
 #home .overlay {
   position: absolute;
   top: 0;
