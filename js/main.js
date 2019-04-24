@@ -486,3 +486,21 @@ $(window).resize(function(){
 	}
 
 });
+
+
+var userFeed = new Instafeed({
+  get: 'user',
+  userId: '12766448444',
+  clientId: '7d949453c9e043d68e8cbb1da6e1308d',
+  accessToken: '12766448444.7d94945.c3b49d0d17474569abfd8a7ff6c4b09c',
+  resolution: 'standard_resolution',
+  template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
+  sortBy: 'most-recent',
+  limit: 4,
+  links: false
+});
+userFeed.run();
+
+
+
+
