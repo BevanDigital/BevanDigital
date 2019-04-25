@@ -1255,6 +1255,8 @@ header .header-logo {
   transition: all 1s ease-in-out;
 }
 
+
+
 /*everywhere else*/
 header .header-logo1 {
  position: absolute;
@@ -1265,6 +1267,34 @@ header .header-logo1 {
   -webkit-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+}
+
+@media only screen and (max-width: 770px) {
+  header .header-logo1 {
+     margin-left: -80px;
+     left: 0;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  header .header-logo1 {
+     left: 36px;
+      margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header .header-logo1 {
+     left: 18px;
+      margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  header .header-logo1 {
+     left: 10px;
+      margin-left: 0px;
+  }
 }
 
 header .header-logo a {
@@ -1542,6 +1572,8 @@ header .header-logo1 a {
     display: none;
   }
 }
+
+
 
 
 /* ===================================================================
