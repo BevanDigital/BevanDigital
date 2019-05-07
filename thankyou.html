@@ -5,26 +5,31 @@
 <head>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138660129-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138660129-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-  gtag('config', 'UA-138660129-1');
-</script>
+		gtag('config', 'UA-138660129-1');
+	</script>
 
 
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
 	<title>Bevan Digital</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+	<meta name="description" content="Full Service Digital Agency focusing primarily on Website Creation and Digital Marketing techniques to increase traffic, build brand awareness, increase conversion and track our client results">  
+	<meta name="keywords" content="Web Development, Digital Marketing, social media agency, web design">
+	<meta name="author" content="Ethan Bevan">
 
    <!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="google-site-verification" content="0nvx5WRMjCFKXcrjoVkdoQ3cJ87dK0YzZQfHvmyMhBI" />
 
  	<!-- CSS
    ================================================== -->
@@ -33,14 +38,36 @@
    <link rel="stylesheet" href="css/main.css">  
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
    <!-- script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
    <!-- favicons
 	================================================== -->
 		<link rel="shortcut icon" href="images/faviconZapped.png">
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '832650937096868');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=832650937096868&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 
 </head>
 
@@ -63,29 +90,30 @@
 
 			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
 
-	   	<h3>Bevan Digital.</h3>  
+	   <h3>Bevan Digital.</h3>  
 
 			<ul class="nav-list">
-				 <li class="current"><a  href="index.html#home" title="">Home</a></li>
-				<li><a href="index.html#about" title="">About</a></li>
-				<li><a href="index.html#services" title="">Services</a></li>
-				<li><a href="index.html#portfolio" title="">Work</a></li>
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Work</a></li>
 				<li><a href="blog.html" title="">Blog</a></li>
 				<li><a href="aboutus.html" title="">Who We Are</a></li>
-				<li><a href="index.html#contact" title="">Contact</a></li>						
+				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
 			</ul>	
+				
 
 			<ul class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="https://www.facebook.com/bevandigital/" target="_blank"><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         	<a href="https://twitter.com/bevandigital" target="_blank"><i class="fa fa-twitter"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         	<a href="https://www.instagram.com/bevandigital/" target="_blank"><i class="fa fa-instagram"></i></a>
 	         </li>
-                
+                    
 	      </ul>		
 
 		</nav>  <!-- end #menu-nav-wrap -->
@@ -93,76 +121,27 @@
 	</header> <!-- end header -->  
 
 
-
-
+   
 
    <!-- about
    ================================================== -->
    <section id="about">
 
    	<div class="row about-wrap">
-   		<div class="aboutWidth-E">
    		<div class="col-full">
 
    			<div class="about-profile-bg"></div>
 
 				<div class="intro">
-					<div class="shopifyMobile-E"><h3 class="animate-this">Shopify Projects</h3></div>
-					<div class="disclaimer-E"><p>Disclaimer * <br> These projects are not our clients, but projects the individual representing this business has worked on during his time of employment at previous ecommerce agencies.</p></div>
-	   			<p class="lead animate-this">
-				
-			<div class="cardsAll-E">
-				<a href="https://www.lovisa.com/" target="_blank">
-			
-					<div class="card-E">
-				  <img src="images/lovisa_0.png" alt="Avatar" >
-				  <div class="container-E">
-				    <h4><b>Lovisa</b></h4> 
-				    <p>Gained experience creating and designing Lovisa's current shopify theme, along with blog migration and setup<br><br></p> 
-				  </div>
-				</div>
-			</a>
-					<a href="https://thedoctorskitchen.com.au/" target="_blank">
-						<div class="card-E">
-				  <img src="images/doctorskitchenlogo.png" alt="Avatar" >
-				  <div class="container-E">
-				    <h4><b>Doctors Kitchen </b></h4> 
-				    <p>Selecting, populating and configuring this shopify theme with video, photos and content that bring this site to life. </p> 
-				  </div>
-				</div>
-			</a>
-					<a href="https://expresspods.com.au" target="_blank">
-						<div class="card-E">
-				  <img src="images/expressss.png" alt="Avatar" >
-				  <div class="container-E">
-				    <h4><b>Express Pods</b></h4> 
-				    <p>Creating dynamic and scollable related products section<br><br><br><br></p> 
-				  </div>
-				</div>
-			</a>
-					<a href="https://www.levantinehill.com.au/" target="_blank">
-						<div class="card-E">
-				  <img src="images/Levantine-Hill-1-500x500.jpg" alt="Avatar" >
-				  <div class="container-E">
-				    <h4><b>Levantine Hill</b></h4> 
-				    <p>Creating custom notification emails for inner circle signups and designing an email template with customer details</p> 
-				  </div>
-				</div>
-			</a>
-					<a href="https://amati.com.au/" target="_blank">
-						<div class="card-E">
-				  <img src="images/amati-circle_x150_54149fe5-4ed8-40e7-a7d8-a924c64cbbd4_x150.png" alt="Avatar" >
-				  <div class="container-E">
-				    <h4><b>Amati Wines</b></h4> 
-				    <p>Crafted from beggining to end, this project focused on showcasing organic wine through both imagery and the company back story.</p> 
-				  </div>
-				</div>
-			</a>
-					
-			</div>
+					<h3 class="animate-this"></h3>
+	   			<p class="lead animate-this" style='font-size: 38px'><span>Thank <br class="breakForMain"> <img class="zappedLogoAlternate" src="images/ZappedLogoAlternate.jpg"><br class="breakForMain">You !</span><br> Check your email for your download.<br>
 
-				</div> 
-				</div>  
+	   				<p>It should be only a few minutes before the report comes through</p>
+
+
+
+
+	   		
 
    		</div> <!-- end col-full  -->
    	</div> <!-- end about-wrap  -->
@@ -172,7 +151,10 @@
 
 
 
-<!-- contact
+
+
+
+	<!-- contact
    ================================================== -->
    <section id="contact">
 
@@ -406,6 +388,9 @@
     	<div id="loader"></div>
    </div> 
 
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafetch.js/1.5.0/instafetch.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="main.js"></script>
    <!-- Java Script

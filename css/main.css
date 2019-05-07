@@ -4315,4 +4315,196 @@ font-family: "montserrat-bold", serif;
 
 }
 
-.fontFamily1E
+/*$$$$ 10 Ways section $$$$*/
+
+
+
+
+/* ===================================================================
+ *  16. contact - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#freedownload {
+  background-color: white;
+ /* background-image: url(../images/freedownload-bg.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding: 12rem 0 12rem;
+  position: relative;
+}
+
+#freedownload .section-intro h1 {
+  color: black;
+}
+#freedownload .section-intro h3 {
+  color: black;
+}
+#freedownload .section-intro p.lead {
+  color: black;
+}
+
+.freedownload-content {
+  max-width: 1024px;
+  margin-top: 3rem;
+  color: #FFFFFF;
+  z-index: 600;
+  position: relative;
+}
+.freedownload-content h5 {
+  color: #FFFFFF;
+  margin-bottom: 5.4rem;
+}
+.freedownload-content h6 {
+  color: black;
+  font-size: 1.4rem;
+}
+
+/* freedownload info */
+.freedownload-info .cinfo {
+  margin-bottom: 4.2rem;
+}
+
+/* freedownload form */
+#freedownload form {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+#freedownload form .form-field {
+  position: relative;
+}
+#freedownload form .form-field:before, #freedownload form .form-field:after {
+  content: "";
+  display: table;
+}
+#freedownload form .form-field:after {
+  clear: both;
+}
+#freedownload form .form-field label {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  padding: .6rem 2rem .6rem 2rem;
+  margin: 0;
+  color: #000000;
+  background: firebrick;
+  border-radius: 3px;
+}
+#freedownload form .form-field label::after {
+  position: absolute;
+  right: 15px;
+  top: 1px;
+  margin-top: -6px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid firebrick;
+  content: "";
+}
+#freedownload form ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+#freedownload form :-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  /* Firefox 18- */
+}
+#freedownload form ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  /* Firefox 19+ */
+}
+#freedownload form :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+#freedownload form .placeholder {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+#freedownload input[type="text"],
+#freedownload input[type="password"],
+#freedownload input[type="email"],
+#freedownload textarea {
+  width: 100%;
+  color: black;
+  margin-bottom: 3.6rem;
+  background: black;
+}
+
+#freedownload input[type="text"]:focus,
+#freedownload input[type="password"]:focus,
+#freedownload input[type="email"]:focus {
+  color: #FFFFFF;
+}
+
+#freedownload textarea {
+  min-height: 21rem;
+  padding: 1.8rem 2rem;
+}
+#freedownload textarea:focus {
+  color: #FFFFFF;
+}
+
+#freedownload button.submitform {
+  font-size: 1.5rem;
+  display: block;
+  letter-spacing: .2rem;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 3rem;
+  width: 100%;
+  background: firebrick;
+  color: #000000;
+  margin-top: .6rem;
+}
+#freedownload button.submitform:hover, #freedownload button.submitform:focus {
+  background: #f89e0f;
+}
+
+
+#freedownload .section-intro.with-bottom-sep::after {
+  display: inline-block;
+  height: 1px;
+  width: 200px;
+  background-color: black;
+  text-align: center;
+}
+
+
+#freedownload input[type="url"] {
+
+color: black;
+width: 100%;
+background: black;
+}
+
+#freedownload .col-seven {
+  width: 50%;
+}
+
+
+
+
+
+#freedownload .col-four {
+  width: 50%;
+}
+
+
+#freedownload  .section-intro.with-bottom-sep {
+  padding-bottom: 2.2rem;
+  color: black;
+}
+
+#freedownload .freereport h3 {
+
+background-color: #2b95e9;
+padding: 20px;
+color: white;
+
+}
+
