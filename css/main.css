@@ -4525,9 +4525,9 @@ color: white;
   color: white;
 }
 
-/*#mc_embed_signup .button {
+#mc_embed_signup .button {
 
-    clear: both;
+clear: both;
     background-color: firebrick !important;
     border: 0 none;
     border-radius: 2px;
@@ -4540,19 +4540,19 @@ color: white;
     height: 32px;
     line-height: 32px;
     margin: 0px;
-    padding: 30px;
-    padding-bottom: 55px;
-     text-align: center; 
-     text-decoration: none; 
-     vertical-align: top; 
-     white-space: nowrap; 
+    padding: 18px;
+    padding-bottom: 49px;
+    t-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
     width: auto;
+    text-align: center;
 }
-}*/
+
 
 #freedownload #mc_embed_signup {
 
-  margin-top: 45px;
+  margin-top: 33px;
 }
 
 @media screen and (max-width: 768px) {
