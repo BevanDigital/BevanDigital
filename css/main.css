@@ -4545,7 +4545,7 @@ clear: both;
     t-decoration: none;
     vertical-align: top;
     white-space: nowrap;
-    width: auto;
+    width: 100% !important;
     text-align: center;
 }
 
