@@ -701,7 +701,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   border: none;
-  -webkit-text-fill-color: #fabc5a;
+  -webkit-text-fill-color: white;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -3257,7 +3257,7 @@ header .header-logo1 {
 .ourfounderE {
   background-color: white;
   padding-top: 90px;
-  margin-bottom: -50px;
+  margin-bottom: -150px;
 }
 
 
@@ -4430,7 +4430,7 @@ font-family: "montserrat-bold", serif;
 #freedownload input[type="email"],
 #freedownload textarea {
   width: 100%;
-  color: black;
+  color: white;
   margin-bottom: 3.6rem;
   background: black;
 }
@@ -4477,7 +4477,7 @@ font-family: "montserrat-bold", serif;
 
 #freedownload input[type="url"] {
 
-color: black;
+color: white;
 width: 100%;
 background: black;
 }
@@ -4508,3 +4508,85 @@ color: white;
 
 }
 
+#freedownload  input[type="submit"] {
+color: white;
+
+
+}
+
+#freedownload  input[type="submit"]:hover {
+  background-color: #2b95e9;
+ 
+}
+
+
+#freedownload  input:-webkit-autofill {
+
+  color: white;
+}
+
+/*#mc_embed_signup .button {
+
+    clear: both;
+    background-color: firebrick !important;
+    border: 0 none;
+    border-radius: 2px;
+    transition: all 0.23s ease-in-out 0s;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 30px;
+    padding-bottom: 55px;
+     text-align: center; 
+     text-decoration: none; 
+     vertical-align: top; 
+     white-space: nowrap; 
+    width: auto;
+}
+}*/
+
+#freedownload #mc_embed_signup {
+
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  #freedownload .row .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #freedownload #mc_embed_signup {
+
+  margin-top: 0px;
+}
+
+  #freedownload [class*="col-"] {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  #freedownload [class*="col-"] + [class*="col-"].end {
+    float: none;
+  }
+}
+
+ #freedownload .greything-e h3::before {
+    display: block;
+    content: "";
+    width: 3px;
+    height: 9.6rem;
+    background-color: rgba(149, 149, 149, 0.7);
+    margin: 0 auto 2.4rem;
+}
