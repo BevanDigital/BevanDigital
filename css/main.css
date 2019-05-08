@@ -3257,8 +3257,15 @@ header .header-logo1 {
 .ourfounderE {
   background-color: white;
   padding-top: 90px;
-  margin-bottom: -150px;
+  margin-bottom: -145px;
 }
+
+@media only screen and (max-width: 770px) {
+.ourfounderE {
+ 
+  margin-bottom: -50px;
+}
+  }
 
 
 .fh5co-staff img {
