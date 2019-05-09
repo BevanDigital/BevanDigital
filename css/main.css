@@ -3263,7 +3263,7 @@ header .header-logo1 {
 @media only screen and (max-width: 770px) {
 .ourfounderE {
  
-  margin-bottom: -50px;
+  margin-bottom: -145px;
 }
   }
 
@@ -4617,7 +4617,7 @@ clear: both;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding: 12rem 0 12rem;
+  padding: 12rem 0 6rem;
   position: relative;
 }
 
