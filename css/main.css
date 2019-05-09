@@ -4597,3 +4597,331 @@ clear: both;
     background-color: rgba(149, 149, 149, 0.7);
     margin: 0 auto 2.4rem;
 }
+
+
+
+
+
+
+
+
+/* ===================================================================
+ *  16. contact - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#strategysession {
+  background-color: white;
+ /* background-image: url(../images/strategysession-bg.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding: 12rem 0 12rem;
+  position: relative;
+}
+
+#strategysession .section-intro h1 {
+  color: black;
+}
+#strategysession .section-intro h3 {
+  color: black;
+}
+#strategysession .section-intro p.lead {
+  color: black;
+}
+
+.strategysession-content {
+  max-width: 1024px;
+  margin-top: 3rem;
+  color: #FFFFFF;
+  z-index: 600;
+  position: relative;
+}
+.strategysession-content h5 {
+  color: #FFFFFF;
+  margin-bottom: 5.4rem;
+}
+.strategysession-content h6 {
+  color: black;
+  font-size: 1.4rem;
+}
+
+/* strategysession info */
+.strategysession-info .cinfo {
+  margin-bottom: 4.2rem;
+}
+
+/* strategysession form */
+#strategysession form {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+#strategysession form .form-field {
+  position: relative;
+}
+#strategysession form .form-field:before, #strategysession form .form-field:after {
+  content: "";
+  display: table;
+}
+#strategysession form .form-field:after {
+  clear: both;
+}
+#strategysession form .form-field label {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  padding: .6rem 2rem .6rem 2rem;
+  margin: 0;
+  color: #000000;
+  background: firebrick;
+  border-radius: 3px;
+}
+#strategysession form .form-field label::after {
+  position: absolute;
+  right: 15px;
+  top: 1px;
+  margin-top: -6px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid firebrick;
+  content: "";
+}
+#strategysession form ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+#strategysession form :-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  /* Firefox 18- */
+}
+#strategysession form ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  /* Firefox 19+ */
+}
+#strategysession form :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+#strategysession form .placeholder {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+#strategysession input[type="text"],
+#strategysession input[type="password"],
+#strategysession input[type="email"],
+#strategysession textarea {
+  width: 100%;
+  color: black !important;
+  margin-bottom: 3.6rem;
+  background: white;
+  border: 2px solid black;
+}
+
+#strategysession input[type="text"]:focus,
+#strategysession input[type="password"]:focus,
+#strategysession input[type="email"]:focus {
+  color: #FFFFFF;
+}
+
+#strategysession textarea {
+  min-height: 21rem;
+  padding: 1.8rem 2rem;
+}
+#strategysession textarea:focus {
+  color: #FFFFFF;
+}
+
+#strategysession button.submitform {
+  font-size: 1.5rem;
+  display: block;
+  letter-spacing: .2rem;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 3rem;
+  width: 100%;
+  background: firebrick;
+  color: #000000;
+  margin-top: .6rem;
+}
+#strategysession button.submitform:hover, #strategysession button.submitform:focus {
+  background: #f89e0f;
+}
+
+
+#strategysession .section-intro.with-bottom-sep::after {
+  display: inline-block;
+  height: 1px;
+  width: 200px;
+  background-color: black;
+  text-align: center;
+}
+
+
+#strategysession input[type="url"] {
+
+color: white;
+width: 100%;
+background: black;
+}
+
+#strategysession .col-seven {
+  width: 50%;
+}
+
+
+
+
+
+#strategysession .col-four {
+  width: 50%;
+}
+
+
+#strategysession  .section-intro.with-bottom-sep {
+  padding-bottom: 2.2rem;
+  color: black;
+}
+
+#strategysession .freestrategy h3 {
+
+background-color: firebrick;
+padding: 20px;
+color: white;
+
+}
+
+#strategysession  input[type="submit"] {
+color: white;
+
+
+}
+
+#strategysession  input[type="submit"]:hover {
+  background-color: #2b95e9;
+ 
+}
+
+
+  input:-webkit-autofill {
+
+  color: black !important;
+}
+
+/* Change Autocomplete styles in Chrome*/
+#strategysession input:-webkit-autofill {
+  
+  -webkit-text-fill-color: black !important;
+  
+  
+}
+
+#mc_embed_signup .button {
+
+clear: both;
+    background-color: firebrick !important;
+    border: 0 none;
+    border-radius: 2px;
+    transition: all 0.23s ease-in-out 0s;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 18px !important;
+    padding-bottom: 49px !important;
+    t-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100% !important;
+    text-align: center;
+}
+
+
+#strategysession #mc_embed_signup {
+
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  #strategysession .row .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #strategysession #mc_embed_signup {
+
+  margin-top: 0px;
+}
+
+  #strategysession [class*="col-"] {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  #strategysession [class*="col-"] + [class*="col-"].end {
+    float: none;
+  }
+}
+
+ #strategysession .greything-e h3::before {
+    display: block;
+    content: "";
+    width: 3px;
+    height: 9.6rem;
+    background-color: rgba(149, 149, 149, 0.7);
+    margin: 0 auto 2.4rem;
+}
+
+/*.mailchimpStrategySession {
+ 
+}*/
+
+.showingstrategy {
+ display: none;
+}
+
+
+
+#strategysession #mc_embed_signup .button {
+
+  clear: both;
+    background-color: black !important;
+    border: 0 none;
+    border-radius: 2px;
+    transition: all 0.23s ease-in-out 0s;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 18px !important;
+    padding-bottom: 49px !important;
+    t-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100% !important;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+.indicates-required {
+
+color: black;
+}

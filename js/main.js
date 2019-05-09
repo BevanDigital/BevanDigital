@@ -501,6 +501,18 @@ var userFeed = new Instafeed({
 });
 userFeed.run();
 
+$(".freestrategy").click(function (){
+
+$(".mailchimpStrategySession").toggleClass("showingstrategy");
+
+});
+
+$(".fa-close").click(function (){
+
+$(".mailchimpStrategySession").toggleClass("showingstrategy");
+
+});
+
 
 
 
