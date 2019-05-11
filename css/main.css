@@ -4925,3 +4925,41 @@ clear: both;
 
 color: black;
 }
+
+
+.uparrow1 {
+  height: 35px;
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+
+.runningWolf {
+
+margin-top: -70px;
+    height: 350px;
+
+}
+
+
+@media screen and (max-width: 1030px) {
+.runningWolf {
+
+margin-top: -65px;
+    
+
+}
+  }
+
+@media screen and (max-width: 768px) {
+
+.runningWolf {
+
+margin-top: -65px;
+    height: auto;
+    width: 350px;
+
+}
+
+}
+
+
