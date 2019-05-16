@@ -4294,12 +4294,18 @@ flex-wrap: wrap;
 display: flex;
 align-items: center;
 position: relative;
-width: 25%;
+width: 22%;
 background: white;
-
-
+margin: 10px;
 
 }
+
+  @media only screen and (max-width: 500px) {
+    #instafeed a {
+      width: 50%;
+      margin: 0px;
+    }
+  }
 
 @media only screen and (min-width: $lg) {
 
@@ -4972,6 +4978,14 @@ margin-top: -65px;
 
 .middleBlogImages {
 height: 165px;
+width: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.middleBlogImages1 {
+
+  height: 400px;
 width: auto;
 padding-top: 20px;
 padding-bottom: 20px;
